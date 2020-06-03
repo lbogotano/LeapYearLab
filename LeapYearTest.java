@@ -1,3 +1,4 @@
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -6,8 +7,9 @@ public class LeapYearTest {
     
      @Test
      public void isYearDivisibleBy4() {
-         Assert.assertEquals(true, LeapYear.yearLeapChecker(1996));
-         Assert.assertEquals(false, LeapYear.yearLeapChecker(1999));
+        LeapYear Leap = new LeapYear();
+         assertEquals(true, Leap.yearLeapChecker(1996));
+         assertEquals(false, Leap.yearLeapChecker(1999));
      }
  
     
