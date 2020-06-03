@@ -15,8 +15,9 @@ public class LeapYearTest {
     
     @Test
     public void isDivisibleBy400() {
-        Assert.assertEquals(true, LeapYear.checkIfLeapYear(2000));
-        Assert.assertEquals(false, LeapYear.checkIfLeapYear(2001));
+        LeapYear Leap = new LeapYear();
+        assertEquals(true, Leap.checkIfLeapYear(2000));
+        assertEquals(false, Leap.checkIfLeapYear(2001));
     }
 
     
